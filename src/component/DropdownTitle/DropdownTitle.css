@@ -1,0 +1,41 @@
+.dropdown-title-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+
+.dropdown-title {
+    font-family: "Poppins";
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 500;
+    color: #7f7f7f;
+}
+
+.dropdown-title-subtitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 500;
+    color: #7f7f7f;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 5px
+}
+
+.dropdown-title-subtitle-selected {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 500;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #989898;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+}

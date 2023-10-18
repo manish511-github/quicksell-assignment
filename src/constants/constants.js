@@ -1,0 +1,6 @@
+export const PRIORITY = "Priority"
+export const TITLE = "Title"
+export const USER = "User"
+export const STATUS = "Status"
+export const GROUPING = "Grouping"
+export const ORDERING = "Ordering" 

@@ -1,0 +1,28 @@
+.navbar-container {
+  padding: 10px 20px; 
+  background-color: #333; 
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+  height: 40px; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  color: #fff; 
+}
+
+
+@media screen and (max-width: 700px) {
+  .navbar-container {
+      padding: 10px 20px; 
+  }
+}
+
+.navbar-container a {
+  color: #fff;
+  text-decoration: none; 
+  margin: 0 15px; 
+  transition: color 0.3s; 
+}
+
+.navbar-container a:hover {
+  color: #f1c40f; 
+}

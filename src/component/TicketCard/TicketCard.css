@@ -1,0 +1,97 @@
+.ticket-container {
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 0 20px;
+    cursor: grab;
+    transition: transform 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 700px) {
+    .ticket-container {
+        margin: 0 10px;
+    }
+}
+
+.ticket-id {
+    font-family: "Open Sans", sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    color: #7f7f7f;
+}
+
+.image-dp {
+    width: 25px;
+    height: 25px;
+    background-color: #999;
+    border-radius: 50%;
+}
+
+.title-container {
+    display: flex;
+    gap: 10px;
+}
+
+.ticket-id-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 25px;
+}
+
+.title {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.tag-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.tag-sub-container {
+    padding: 4px;
+    border: 2px solid #efefef;
+    border-radius: 5px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.tag-icon {
+    font-size: 12px;
+    padding: 2px 8px;
+    color: #ffffff;
+    border-radius: 2px;
+    background-color: #7e7e7e;
+}
+
+.tag-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #a3a3a3;
+}
+
+.tag-title-icon {
+    width: 12px;
+    height: 12px;
+    background-color: #898989;
+    border-radius: 50%;
+}
+
+.draggable {
+    transition: transform 0.3s ease-in-out;
+}
+
+.dragging {
+    z-index: 999;
+}

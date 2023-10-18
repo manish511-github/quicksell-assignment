@@ -1,0 +1,19 @@
+.dropdown-menu-container {
+    padding: 15px;
+    border-style: solid;
+    border-radius: 8px;
+    border-width: 2px;
+    border-color: #f0f0f0;
+    width: fit-content;
+    position: absolute;
+    top: 40px;
+    background-color: #f8f8fa;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 2;
+}
+
+.dropdown-container {
+    position: relative;  
+}

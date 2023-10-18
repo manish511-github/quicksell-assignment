@@ -1,0 +1,26 @@
+.dropdown-button-container {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    /* padding-left: 6px;
+    padding-right: 6px; */
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #e4e4e4;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.3);
+}
+
+.dropdown-button-container-title {
+    font-family: "Poppins";
+    font-size: 10px;
+    line-height: 10px;
+    font-weight: 600;
+    color: #000000;
+}
