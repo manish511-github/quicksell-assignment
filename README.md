@@ -52,33 +52,6 @@ I followed the provided guidelines strictly:
 1. I didn't use CSS libraries like Tailwind, Vite, Material UI, Chakra, etc.
 2. I didn't use Next.js or similar frameworks. I coded the application in pure ReactJS.
 
-## Getting Started
-
-If you'd like to run the Kanban Board React App locally, here's what you need to do:
-
-1. Clone this repository to your local machine.
-
-```bash
-git clone https://github.com/astromanish/quicksell.git
-```
-
-2. Navigate to the project directory.
-
-```bash
-cd quicksell
-```
-
-3. Install the project dependencies.
-
-```bash
-npm install
-```
-
-4. Start the development server.
-
-```bash
-npm start
-```
 
 5. Open your web browser and visit [http://localhost:3000](http://localhost:3000) to access the Kanban board application.
 
