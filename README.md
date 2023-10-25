@@ -13,9 +13,9 @@ By Priority: Group tasks based on their priority level. This ensures that high-p
 ## Prioritizing Your Work
 The Kanban board recognizes five priority levels for tasks:
 
-Urgent (Priority level 4)
-High (Priority level 3)
-Medium (Priority level 2)
-Low (Priority level 1)
-No Priority (Priority level 0)
+-> Urgent (Priority level 4)
+-> High (Priority level 3)
+-> Medium (Priority level 2)
+-> Low (Priority level 1)
+-> No Priority (Priority level 0)
 With this Kanban board, you can enhance your task management and collaboration capabilities, all while maintaining a visually pleasing and intuitive user interface.
