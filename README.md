@@ -1,58 +1,31 @@
-# Kanban Board React App
+Kanban Board React App Overview
+Welcome to the Kanban Board React App repository. This application serves the purpose of creating a dynamic and user-centric Kanban board, allowing users to interact with the data from a provided API. The primary functionality of this app revolves around grouping and ordering options, adapting the Kanban board's content based on user preferences.
 
-Welcome to my Kanban Board React App repository! The goal of this application is to interact with the provided API and display the data in a dynamic Kanban board format based on user preferences. When a user clicks the "display" button and selects a grouping or ordering option, the Kanban board should dynamically adjust to reflect the user's choice.
+Grouping Your Tasks
+The app empowers users with three distinct grouping options:
 
-### Grouping Options
+By Status: Easily organize tasks based on their current status. This visual grouping provides a clear overview of the progress of each task.
 
-The application offers three distinct ways to group the data:
+By User: Arrange tasks according to the assigned users. This feature streamlines collaboration and helps users focus on their assigned responsibilities.
 
-1. **By Status**: Group tickets based on their current status.
-![](./screenshots/group_by_status.png)
-2. **By User**: Arrange tickets according to the assigned user.
-![](./screenshots/group_by_users.png)
-1. **By Priority**: Group tickets based on their priority level.
-![](./screenshots/group_by_priority.png)
+By Priority: Group tasks based on their priority level. This ensures that high-priority tasks are readily identifiable and can be addressed promptly.
 
-### Ordering Options
+Ordering for Clarity
+Users have the flexibility to sort their displayed tasks in two different ways:
 
-Users can also sort the displayed tickets in two ways:
+Priority Order: This arranges tasks in descending order of priority, ensuring that the most critical tasks are at the forefront.
 
-1. **Priority**: Arrange tickets in descending order of priority.
-![](./screenshots/order_by_priority.png)
-1. **Title**: Sort tickets in ascending order based on their title.
-![](./screenshots/order_by_title.png)
+Title Order: Sort tasks in ascending order based on their title. This allows for easy navigation and reference, especially for tasks with similar priorities.
 
-### Visual Design
+Eye-Catching Design
+The Kanban board is designed with user experience in mind. Its responsive and visually appealing layout ensures an enjoyable and efficient task management process.
 
-The Kanban board is responsive and visually appealing, with a design similar to the provided screenshots.
+Prioritizing Your Work
+The Kanban board recognizes five priority levels for tasks:
 
-### Priority Levels
-
-The priority levels for the tickets are as follows:
-
-- Urgent (Priority level 4)
-- High (Priority level 3)
-- Medium (Priority level 2)
-- Low (Priority level 1)
-- No priority (Priority level 0)
-
-
-### Persistence
-
-Additionally, I ensured that the application saves the user's view state even after a page reload.
-
-### Assets
-
-For icons, I used icons from various sources, including Google and other libraries.
-
-### Restrictions
-
-I followed the provided guidelines strictly:
-
-1. I didn't use CSS libraries like Tailwind, Vite, Material UI, Chakra, etc.
-2. I didn't use Next.js or similar frameworks. I coded the application in pure ReactJS.
-
-
-5. Open your web browser and visit [http://localhost:3000](http://localhost:3000) to access the Kanban board application.
-
-
+Urgent (Priority level 4)
+High (Priority level 3)
+Medium (Priority level 2)
+Low (Priority level 1)
+No Priority (Priority level 0)
+With this Kanban board, you can enhance your task management and collaboration capabilities, all while maintaining a visually pleasing and intuitive user interface.
